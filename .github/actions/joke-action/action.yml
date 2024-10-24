@@ -1,1 +1,15 @@
+<<<<<<< HEAD
 name: 'My GitHub Action' 
+=======
+name: "my joke action"
+
+description: "use an external API to retrieve and display a joke"
+
+outputs:
+  joke-output:
+    description: The resulting joke from the icanhazdadjokes API
+
+runs:
+  using: "node16"
+  main: "main.js"
+>>>>>>> ff4ae11712f2843f0110695fdef1c9526b89a6d1
